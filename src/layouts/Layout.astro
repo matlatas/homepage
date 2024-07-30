@@ -21,8 +21,8 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Astroship"
-  : "Astroship - Starter Template for Astro with Tailwind CSS";
+  ? title + " | " + "Matlat"
+  : "Matlat - Ta gode matvalg";
 ---
 
 <!DOCTYPE html>
@@ -36,10 +36,10 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      description="Matlat er appen som hjelper deg å spise sunt og billig. Sjekk maten for e-stoffer og allergener eller om den er ultraprosessert."
       canonical={canonicalURL}
       twitter={{
-        creator: "@surjithctly",
+        creator: "@matlat",
         site: "@web3templates",
         card: "summary_large_image",
       }}
@@ -47,11 +47,11 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Astroship - Starter Template for Astro`,
+          title: `Matlat - Ta gode matvalg`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Astroship Homepage Screenshot",
+          alt: "Matlat Homepage Screenshot",
         },
       }}
     />

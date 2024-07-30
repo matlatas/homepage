@@ -23,9 +23,14 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
        Billigere og sunnere mat til folket!
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        Vi er ett lite team som jobber for en bedre, billigere og sunnere hverdag. Vi henter priser og tilbud fra de fleste norske dagligvarebutikker, slik at du kan handle billigere og sunnere mat. Vi jobber kontinuerlig med å klassifisere matvarer, slik at du enkelt kan finne sunnere alternativer. Vi jobber også med å lage oppskrifter og matplaner, slik at du kan spise sunnere og billigere.
+        Vi er ett lite team som jobber for en bedre, billigere og sunnere hverdag. Vi henter priser og tilbud fra de fleste norske dagligvarebutikker, slik at du kan handle billigere og sunnere mat. Vi jobber kontinuerlig med å klassifisere matvarer, slik at du enkelt kan finne sunnere alternativer.
+      </p>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Matlat er en norskutviklet forbrukertjeneste for enklere dagligvarehandel. Vi er uavhengige og mottar ikke midler på andre måter enn gjennom reklameinntektene i appen.
       </p>
     </div>
+
+
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
         publishedTeamMembers.map((teamMemberEntry) => (
