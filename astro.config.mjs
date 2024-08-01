@@ -6,7 +6,6 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://matlatas.github.io",
-  base: "/homepage",
+  site: "https://new.matlat.no",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 });
