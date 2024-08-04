@@ -7,7 +7,7 @@ image:
     src: "../images/kosthold.jpg",
     alt: "spis sundt, da kan du spare penger på kosttilskudd",
   }
-publishDate: "2024-08-04 10:00"
+publishDate: "2024-08-03 10:00"
 category: "Kostholdsråd"
 author: "Bjarte Olsen"
 tags: [kosthold]
