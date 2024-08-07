@@ -4,10 +4,10 @@ title: "Butikk kjedenes egne merkevarer"
 snippet: "Bryr du deg om hvem som tjener penger på varene du kjøper, eller hva de blir brukt til? Noen produsenter er ideele stiftelser, noen er eide av bøndene og andre av milliardærer som flytter til sveits og flyr privatfly. Ved å gjøre gode matvalg kan du påvirke pengestrømmen."
 image:
   {
-    src: "/images/ukraina.jpg",
-    alt: "stand with ukraine",
+    src: "/images/ferskvaredisk.jpg",
+    alt: "ferskvaredisk",
   }
-publishDate: "2024-08-08 10:00"
+publishDate: "2024-08-06 10:00"
 category: "Gode matvalg"
 author: "Bjarte Olsen"
 tags: [matvalg]
