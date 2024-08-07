@@ -19,9 +19,6 @@ Kjøp varer fra stater du liker og tenk på klimaregnskapet til hver enkelt vare
 
 Her er et lite utvalg av produkter som har, eller kan ha russisk opprinnelsesland.
 
-![Skjermbilde](/images/VarensOpprinnelse1.png)
-![Skjermbilde](/images/VarensOpprinnelse2.png)
-![Skjermbilde](/images/VarensOpprinnelse3.png)
-![Skjermbilde](/images/VarensOpprinnelse4.png)
+|![Skjermbilde](/images/VarensOpprinnelse1.png)|![Skjermbilde](/images/VarensOpprinnelse2.png)|![Skjermbilde](/images/VarensOpprinnelse3.png)|![Skjermbilde](/images/VarensOpprinnelse4.png)|
 
 Du kan også finne varer fra ulike land, enkelt, ved å søke på landet i produktsøket i Matlat.
