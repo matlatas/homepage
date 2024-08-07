@@ -24,7 +24,7 @@ Nylig publiserte forskere fra Universitetet i Bergen en [paraplystudie](https://
 
 Disse oppdagelsene understreker viktigheten av kosthold i forbindelse med IBD og kan lede til mer målrettet veiledning for de som er berørt av sykdommen.
 
-Matlat gir deg innsikt i matvarenes innhold og bearbeidelses grad, scann eller søk opp varen, så gir vi deg full innsikt i alt fra varedeklarasjon, næring
+Matlat gir deg innsikt i matvarenes innhold og bearbeidelses grad, scann eller søk opp varen, så gir vi deg full innsikt i alt fra varedeklarasjon, næringsinnhold, tilsetningsstoffer, dagens pris, pris historikk, opprinnelsesland, merkevare m.m.
 
 | ![Skjermbilde](/images/GlutefriSkjerm1.jpg) | ![Skjermbilde](/images/GlutefriSkjerm2.jpg) | ![Skjermbilde](/images/GlutefriSkjerm3.jpg) |
 | ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
