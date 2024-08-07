@@ -4,11 +4,11 @@ title: "Inflammatorisk tarmsykdom og kosthold"
 snippet: "Nylig publiserte forskere fra Universitetet i Bergen en paraplystudie som gir ny innsikt i sammenhengen mellom kosthold og inflammatorisk tarmsykdom (IBD). Studien, som oppsummerte resultater fra 47 andre studier, avdekket viktige funn som kan påvirke både forebygging og behandling av IBD."
 image:
   {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
-    alt: "full stack web development",
+    src: "/images/kosthold_1.jpg",
+    alt: "Kostholdsråd",
   }
-publishDate: "2024-07-28 08:00"
-category: "Tilbudsuken"
+publishDate: "2024-06-24 08:00"
+category: "Kostholdsråd"
 author: "Bjarte Olsen"
 tags: [tilbud]
 ---
@@ -26,6 +26,6 @@ Disse oppdagelsene understreker viktigheten av kosthold i forbindelse med IBD og
 
 Matlat gir deg innsikt i matvarenes innhold og bearbeidelses grad, scann eller søk opp varen, så gir vi deg full innsikt i alt fra varedeklarasjon, næring
 
-![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm1.jpg)![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm2.jpg)
+![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm1.jpg)
 
-![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm3.jpg)
+![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm3.jpg)![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm3.jpg)
