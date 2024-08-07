@@ -7,7 +7,7 @@ image:
     src: "/images/ukraina.jpg",
     alt: "stand with ukraine",
   }
-publishDate: "2024-08-03 10:00"
+publishDate: "2024-08-07 10:00"
 category: "Gode matvalg"
 author: "Bjarte Olsen"
 tags: [matvalg]
