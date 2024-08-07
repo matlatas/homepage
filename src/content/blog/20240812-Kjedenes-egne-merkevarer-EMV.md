@@ -7,7 +7,7 @@ image:
     src: "/images/ferskvaredisk.jpg",
     alt: "ferskvaredisk",
   }
-publishDate: "2024-08-06 10:00"
+publishDate: "2024-08-12 10:00"
 category: "Gode matvalg"
 author: "Bjarte Olsen"
 tags: [matvalg]
