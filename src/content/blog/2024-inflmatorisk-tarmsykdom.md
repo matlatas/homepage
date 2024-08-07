@@ -10,7 +10,7 @@ image:
 publishDate: "2024-06-24 08:00"
 category: "Kostholdsråd"
 author: "Bjarte Olsen"
-tags: [tilbud]
+tags: [kosthold]
 ---
 
 **Inflammatorisk tarmsykdom og kosthold: Viktige funn fra ny forskning**
@@ -26,6 +26,6 @@ Disse oppdagelsene understreker viktigheten av kosthold i forbindelse med IBD og
 
 Matlat gir deg innsikt i matvarenes innhold og bearbeidelses grad, scann eller søk opp varen, så gir vi deg full innsikt i alt fra varedeklarasjon, næring
 
-![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm1.jpg)
-
-![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm3.jpg)![Skjermbilde](C:\Users\BjarteOlsen\Documents\GitHub\homepage\public\images\GlutefriSkjerm3.jpg)
+![Skjermbilde](/images/GlutefriSkjerm1.jpg)
+![Skjermbilde](/images/GlutefriSkjerm2.jpg)
+![Skjermbilde](/images/GlutefriSkjerm3.jpg)
