@@ -4,7 +4,7 @@ title: "Spar på kosttilskuddet, spis sunt i stedet"
 snippet: "For de fleste av oss er et variert og balansert kosthold tilstrekkelig for å dekke våre behov for vitaminer og mineraler. Neste gang du vurderer å kjøpe kosttilskudd, tenk på om pengene kanskje er bedre brukt på sunn og næringsrik mat."
 image:
   {
-    src: "../images/kosthold.jpg",
+    src: "/images/kosthold.jpg",
     alt: "spis sundt, da kan du spare penger på kosttilskudd",
   }
 publishDate: "2024-08-03 10:00"
