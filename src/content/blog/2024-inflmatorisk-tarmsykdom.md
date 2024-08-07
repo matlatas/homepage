@@ -26,4 +26,5 @@ Disse oppdagelsene understreker viktigheten av kosthold i forbindelse med IBD og
 
 Matlat gir deg innsikt i matvarenes innhold og bearbeidelses grad, scann eller søk opp varen, så gir vi deg full innsikt i alt fra varedeklarasjon, næring
 
-|![Skjermbilde](/images/GlutefriSkjerm1.jpg)|![Skjermbilde](/images/GlutefriSkjerm2.jpg)|![Skjermbilde](/images/GlutefriSkjerm3.jpg)|
+| ![Skjermbilde](/images/GlutefriSkjerm1.jpg) | ![Skjermbilde](/images/GlutefriSkjerm2.jpg) | ![Skjermbilde](/images/GlutefriSkjerm3.jpg) |
+| ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
