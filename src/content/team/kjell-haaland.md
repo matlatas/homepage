@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "Kjell Håland"
-title: "Founder"
+title: "Grunnlegger og utvikler"
 avatar:
   {
     src: "/images/kjell.jpg",

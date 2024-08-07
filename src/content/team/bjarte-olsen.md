@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "Bjarte Olsen"
-title: "CEO and Co-founder"
+title: "Medgrunnlegger og leder i det daglige"
 avatar: {
     src: "/images/bjarte.jpg",
     alt: "Bjarte Olsen"
