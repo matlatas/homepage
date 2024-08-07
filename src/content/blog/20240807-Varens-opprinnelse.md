@@ -13,8 +13,6 @@ author: "Bjarte Olsen"
 tags: [matvalg]
 ---
 
-# Finn varens opprinnelse med Matlat
-
 Kjøp varer fra stater du liker og tenk på klimaregnskapet til hver enkelt vare du kjøper. Stressende i en travel hverdag, men med Matlat er det enklere å gjøre gode matvalg. Finn varenes opprinnelse med Matlat. Vi viser alltid produsentens oppgitte opprinnelsesland for produktene, om du har preferanser for stater du ønsker å unngå så gir vi varene en smiley basert på det. Innstillingen finner du på tannhjulet øverst til høyre når du er inne i produktvisningen.
 
 Her er et lite utvalg av produkter som har, eller kan ha russisk opprinnelsesland.
