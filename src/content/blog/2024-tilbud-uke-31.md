@@ -22,5 +22,3 @@ Kiwi fortsetter med god pris på fersk Lerøy ørretfilet til 244/kiloen. Rema h
 Kjedene tømmer lagrene for grillmat med masse tilbud på pølser og marinert kjøtt. Her er det også verdt å ta en titt i datohyllene for å se om det ligger noen kupp i din lokale butikk. Skal du unngå ultraprosessert mat er det stort sett lurt å holde seg unna de ferdigmarinerte produktene.
 
 Om du finner andre tilbud du mener er gode, eller tema du ønsker at vi tar for oss her, gi oss et vink på post@matlat.no
-
-![asd]()
