@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Butikk kjedenes egne merkevarer"
+title: "Kjedenes egne merkevarer"
 snippet: "Bryr du deg om hvem som tjener penger på varene du kjøper, eller hva de blir brukt til? Noen produsenter er ideele stiftelser, noen er eide av bøndene og andre av milliardærer som flytter til sveits og flyr privatfly. Ved å gjøre gode matvalg kan du påvirke pengestrømmen."
 image:
   {
