@@ -6,6 +6,6 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://new.matlat.no",
+  site: "https://matlat.no",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 });
