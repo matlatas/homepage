@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Inflammatorisk tarmsykdom og kosthold"
 snippet: "Nylig publiserte forskere fra Universitetet i Bergen en paraplystudie som gir ny innsikt i sammenhengen mellom kosthold og inflammatorisk tarmsykdom (IBD). Studien, som oppsummerte resultater fra 47 andre studier, avdekket viktige funn som kan påvirke både forebygging og behandling av IBD."
 image:
