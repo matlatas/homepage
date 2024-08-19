@@ -8,6 +8,11 @@ export const GET: APIRoute = async ({params, request}) => {
         return !data.draft && data.publishDate < new Date();
     });
 
+    // Sort by date in descending order
+    publishedBlogEntries.sort((a, b) => {
+        return b.data.publishDate.getTime() - a.data.publishDate.getTime();
+    });
+
     // Limit to 5 blog entries
     const firstFiveBlogEntries = publishedBlogEntries.slice(0, 5);
 
