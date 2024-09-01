@@ -18,6 +18,8 @@ Norgesgruppen har etablert storhandel konseptet Gigaboks. Her får forbrukeren o
 
 Vi har sett gjennom Gigaboks tilbudsavis og trukket ut noen varer og sammenlignet med prisen i noen av de andre kjedene. Konklusjonen er at du her, som overalt ellers, må være på vakt for luretilbud. I tillegg er det viktig å tenke på matsvinn. Om du kjøper en bøtte med 3 kg Nutella er det ikke sikkert den er like god når du kommer til bunnen og den er tørket ut.
 
+Tilbudsavisen fra Gigaboks finner du i Matlat, og er søkbar som alle de andre tilbudsavisene.
+
 Bruker du Trumf kortet får du 10% bonus på alle kjøp.
 
 | Vare                        | Gigaboks   | Billigste alternativ | Pris       |
