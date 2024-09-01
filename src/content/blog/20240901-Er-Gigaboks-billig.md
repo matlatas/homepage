@@ -7,7 +7,7 @@ image:
     src: "/images/gigaboks_logo.jpg",
     alt: "Gigaboks logo",
   }
-publishDate: "2024-08-25 12:00"
+publishDate: "2024-09-01 12:00"
 category: "Butikk kjeder"
 author: "Bjarte Olsen"
 tags: [Gigaboks]
