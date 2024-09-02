@@ -22,20 +22,20 @@ Tilbudsavisen fra Gigaboks finner du i Matlat, og er søkbar som alle de andre t
 
 Bruker du Trumf kortet får du 10% bonus på alle kjøp.
 
-| Vare                        | Gigaboks   | Billigste alternativ | Pris       |
-| --------------------------- | ----------:| --------------------:| ----------:|
-| Caputo pizzamel/kg          | **41,80**  | Meny                 | 53,90      |
-| Finish oppvasktabletter/stk | **1,01**   | Meny                 | 1,05       |
-| God Morgen Juice/liter      | **22,80**  | Meny                 | 27,37      |
-| Jarlsberg/kg                | **170,00** | Oda                  | 175,57     |
-| Lettmelk sjokolade/liter    | 25,66      | Coop Extra           | **20,00**  |
-| Norvegia/kg                 | 129,00     | Kiwi                 | **95,20**  |
-| Nutella/kg                  | **126,33** | Kiwi                 | 131,14     |
-| Santa Maria Taco spice mix  | **216,16** | Oda                  | 250,00     |
-| Kjøttboller (EMV*)/kg       | 219,00     | Extra                | **56,25**  |
-| Karbonader (EMV*)/kg        | 189,00     | Extra                | **56,25**  |
-| Filtermalt kaffe (EMV*)/kg  | 166,00     | Meny                 | **119,60** |
-| Kikkoman soyasaus/liter     | **104,74** | Oda                  | 119,00     |
+| Vare                       | Gigaboks   | Billigste alternativ | Pris       |
+| -------------------------- | ----------:| --------------------:| ----------:|
+| Caputo pizzamel/kg         | **41,80**  | Meny                 | 53,90      |
+| Finish oppvasktabs/stk     | **1,01**   | Meny                 | 1,05       |
+| God Morgen Juice/liter     | **22,80**  | Meny                 | 27,37      |
+| Jarlsberg/kg               | **170,00** | Oda                  | 175,57     |
+| Lettmelk sjokolade/liter   | 25,66      | Coop Extra           | **20,00**  |
+| Norvegia/kg                | 129,00     | Kiwi                 | **95,20**  |
+| Nutella/kg                 | **126,33** | Kiwi                 | 131,14     |
+| Santa Maria Taco spice mix | **216,16** | Oda                  | 250,00     |
+| Kjøttboller (EMV*)/kg      | 219,00     | Extra                | **56,25**  |
+| Karbonader (EMV*)/kg       | 189,00     | Extra                | **56,25**  |
+| Filtermalt kaffe (EMV*)/kg | 166,00     | Meny                 | **119,60** |
+| Kikkoman soyasaus/liter    | **104,74** | Oda                  | 119,00     |
 
 *EMV er kjedenes egen merkevare. 
 
