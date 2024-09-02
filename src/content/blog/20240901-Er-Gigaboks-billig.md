@@ -8,9 +8,9 @@ image:
     alt: "Gigaboks logo",
   }
 publishDate: "2024-09-01 12:00"
-category: "Butikk kjeder"
+category: "Tilbudsuken"
 author: "Bjarte Olsen"
-tags: [Gigaboks]
+tags: [Tilbud]
 
 ---
 
