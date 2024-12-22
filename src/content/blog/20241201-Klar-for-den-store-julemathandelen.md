@@ -16,14 +16,14 @@ tags: [Tips]
 
 Det er mye som skal ordnes før høytiden. Da kan det være lurt å ha noen smarte triks i bakhodet for å gjøre handleturen så enkel, rask og billig som mulig.
 
-![1]("/images/5 gode tips til julehandelen-01.png")
+![1](/images/5 gode tips til julehandelen-01.png)
 
-![2]("/images/5 gode tips til julehandelen-02.png")
+![2](/images/5 gode tips til julehandelen-02.png)
 
-![3]("/images/5 gode tips til julehandelen-03.png")
+![3](/images/5 gode tips til julehandelen-03.png)
 
-![4]("/images/5 gode tips til julehandelen-04.png")
+![4](/images/5 gode tips til julehandelen-04.png)
 
-![5]("/images/5 gode tips til julehandelen-05.png")
+![5](/images/5 gode tips til julehandelen-05.png)
 
 Om du finner tilbud du mener er gode eller dårlige, eller tema du ønsker at vi tar for oss her, gi oss et vink på post@matlat.no
