@@ -1,34 +1,32 @@
 ---
-
 draft: false
-title: "Enkle bytter for en mindre ultraprosessert jul!"
-snippet: "Har du noen gang tenkt over hva som faktisk er i maten du spiser? Mange av matvarene vi handler til jul inneholder unødvendige tilsetningsstoffer og ultraprosesserte ingredienser som kroppen vår ikke trenger."
+title: "Butikkenes egne merkevarer – hvem tjener på det?"
+snippet: "EMV presser prisene ned, men også små produsenter ut. Resultatet? Mindre mangfold og mer makt til de største aktørene."
 image:
   {
-    src: "/images/Enkle bytter for en mindre ultraprosessert jul-01.png",
-    alt: "5 gode tips til julehandelen",
+    src: "/images/Visste du dette om butikkenes egne merkevarer-01.png",
+    alt: "EMV",
   }
-publishDate: "2024-12-07 12:00"
-category: "Jul"
+publishDate: "2024-12-12 12:00"
+category: "EMV"
 author: "Bjarte Olsen"
 tags: [Tips]
 
 ---
 
-Har du noen gang tenkt over hva som faktisk er i maten du spiser? Mange av matvarene vi handler til jul inneholder unødvendige tilsetningsstoffer og ultraprosesserte ingredienser som kroppen vår ikke trenger.
-Nå som vi går inn i en tid med mye fokus på mat - hvorfor ikke ta noen enkle grep for å velge sunnere og renere alternativer? Det handler ikke om store endringer – små bytter kan gjøre en stor forskjell for helsen din!
+EMV presser prisene ned, men også små produsenter ut. Resultatet? Mindre mangfold og mer makt til de største aktørene.
+Se hvordan butikkenes egne merkevarer påvirker oss.
 
-Her er noen enkle matbytter for en mindre ultraprosessert jul
+![1](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-01.png)
+![2](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-02.png)
+![3](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-03.png)
+![4](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-04.png)
+![5](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-05.png)
+![6](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-06.png)
+![7](/images/Visste%20du%20dette%20om%20butikkenes%20egne%20merkevarer-07.png)
 
-![1](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-01.png)
-![2](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-02.png)
-![3](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-03.png)
-![4](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-04.png)
-![5](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-05.png)
-![6](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-06.png)
-![7](/images/Enkle%20bytter%20for%20en%20mindre%20ultraprosessert%20jul-07.png)
-
-Med Matlat er det superenkelt å ta smarte matvalg. Scan eller søk etter produkter, og få raskt oversikt over om de er ultraprosesserte, prosesserte eller naturlige. Du kan også sjekke ingredienser og næringsinnhold - perfekt om du ønsker å unngå spesifikke stoffer eller allergener.
+Med Matlat kan du på sekunder sjekke om produktet er en del av kjedens strategiske satsing på EMV eller fra en uavhengig produsent.
+Hva vil du støtte? Et mangfoldig matmarked eller mer makt til de store kjedene? Valget er ditt! 
 
 Last ned Matlat i dag, og gjør det enklere å ta gode matvalg - for deg selv og de du er glad i!
 
