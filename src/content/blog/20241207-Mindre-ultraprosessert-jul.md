@@ -4,7 +4,7 @@ title: "Enkle bytter for en mindre ultraprosessert jul! :christmas_tree:"
 snippet: "Har du noen gang tenkt over hva som faktisk er i maten du spiser? Mange av matvarene vi handler til jul inneholder unødvendige tilsetningsstoffer og ultraprosesserte ingredienser som kroppen vår ikke trenger."
 image:
   {
-    src: "/images/5 gode tips til julehandelen-01.png",
+    src: "/images/Enkle bytter for en mindre ultraprosessert jul-01.png",
     alt: "5 gode tips til julehandelen",
   }
 publishDate: "2024-12-07 12:00"
