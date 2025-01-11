@@ -16,7 +16,9 @@ tags: [tilsetningsstoffer]
 ---
 
 Vet du egentlig hva maten du spiser inneholder?
+
 Tilsetningsstoffer brukes for å forbedre smak, farge, holdbarhet og konsistens i maten vi spiser, men ikke alle er like ufarlige. Noen kan ha uheldige virkninger på helsen vår – spesielt hvis vi får i oss for mye over tid.
+
 Lær mer om hvilke tilsetningsstoffer du bør være obs på, og hvorfor.
 
 ![1](/images/Vet%20du%20egentlig%20hva%20du%20spiser%20-%20tilsetningsstoffer-01.png)
