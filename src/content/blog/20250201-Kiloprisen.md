@@ -28,7 +28,7 @@ Gjør det enklere å unngå luretilbud.
 ![4](/images/Sjekk%20alltid%20kiloprisen-04.png)
 Små forpakninger er som regel et dyrt alternativ i lengden.
 
-![5](/images/Sjekk%20alltid%20kiloprisen-04.png)
+![5](/images/Sjekk%20alltid%20kiloprisen-05.png)
 PS: Alle tilbudsavisene finner du i appen.
 Matlat gjør det enklere å ta billigere og bedre matvalg - last ned og prøv du og: https://matlat.no/download/
 -
