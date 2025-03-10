@@ -5,7 +5,7 @@ snippet: "Våren er endelig her, og butikkhyllene bugner av spennende nyheter - 
 image:
  {
  src: "/images/matlat - ukens beste tilbud - uke 11-01.png",
- alt: "Iskaffe, kjøttdeig og brokkolini",
+ alt: "Bare ultraprosessert shit",
  }
 publishDate: "2025-03-10 06:00"
 category: "matnyheter"
