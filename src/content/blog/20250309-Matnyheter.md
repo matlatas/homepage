@@ -4,10 +4,10 @@ title: "Vårens matnyheter"
 snippet: "Våren er endelig her, og butikkhyllene bugner av spennende nyheter - alt fra søte fristelser til et stort utvalg gyros og kebab, proteinrike alternativer og spennende oster."
 image:
  {
- src: "/images/matlat - ukens beste tilbud - uke 11-01.png",
+ src: "/images/Matnyheter vår 2025-01.png",
  alt: "Bare ultraprosessert shit",
  }
-publishDate: "2025-03-10 06:00"
+publishDate: "2025-03-07 06:00"
 category: "matnyheter"
 author: "Matlat"
 tags: [nyheter]
