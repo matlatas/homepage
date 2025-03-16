@@ -14,8 +14,6 @@ tags: [konkurranse]
 
 ---
 
-VINN GAVEKORT FOR DEG OG VENN:
-
 ![Konkurranse](/images/Konkurransegavekort.png)
 
 Vi ønsker å gi noe tilbake til våre brukere, og kjører derfor i gang en konkurranse hvor du kan vinne:
