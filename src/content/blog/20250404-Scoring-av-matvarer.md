@@ -53,7 +53,7 @@ Når du kjenner disse, kan du ta valg som både er bedre for helsa, lommeboka og
 - **1 – Best:**  
   Produktet er fra en liten, uavhengig norsk produsent. Når du kjøper disse, støtter du lokale arbeidsplasser og ekte matmangfold.
 
-- **3 – Midt på treet:**  
+- **2 – Midt på treet:**  
   Produktet er laget av et mellomstort eller spesialisert selskap som f.eks. Tine, Q-Meieriene, Gilde eller Hennig-Olsen.
 
 - **4 – Verst:**  
