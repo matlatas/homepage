@@ -7,14 +7,12 @@ image:
  src: "/images/IMG_2373.png",
  alt: "Scoring av matvarer",
  }
-publishDate: "2025-04-04 06:00"
+publishDate: "2025-04-10 06:00"
 category: "Funksjonalitet"
 author: "Matlat"
 tags: [Matlat]
 
 ---
-
-# 🛒 Hva slags mat legger du egentlig i handlekurven?
 
 I en hverdag preget av høye priser, glorete tilbud og merkevarer som eies av de samme gigantene, er det lett å miste oversikten over hva vi egentlig kjøper. Handler du smart, eller blir du lurt av markedskreftene?
 
