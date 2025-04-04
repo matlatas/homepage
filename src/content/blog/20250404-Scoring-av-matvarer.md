@@ -4,8 +4,8 @@ title: "Hva slags mat legger du egentlig i handlekurven?"
 snippet: "Emballasje og design brukes ofte for å få oss til å tro at et produkt er mer miljøvennlig enn det egentlig er."
 image:
  {
- src: "/images/Kildesortering.png",
- alt: "Kildesortering",
+ src: "/images/IMG_2373.png",
+ alt: "Scoring av matvarer",
  }
 publishDate: "2025-04-04 06:00"
 category: "Funksjonalitet"
