@@ -89,9 +89,6 @@ Ved å velge produkter som scorer lavt på alle tre skalaer, gjør du noe godt f
 
 *Vil du ha tips til produkter som scorer bra i norske butikker akkurat nå? Følg med på MatLått.no eller ta kontakt, så hjelper vi deg i gang med bedre*
 
-
-
-
 Matlat gjør det enklere å ta billigere og bedre matvalg - last ned og prøv du og: https://matlat.no/download/
 -
 Matlat er en uavhengig tjeneste for pris- og matvaresammenligning, helt uten tilknytning til noen matvarekjeder.
