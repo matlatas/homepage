@@ -2,24 +2,19 @@
 draft: false
 title: "Hva slags mat legger du egentlig i handlekurven?"
 snippet: "Emballasje og design brukes ofte for å få oss til å tro at et produkt er mer miljøvennlig enn det egentlig er."
-image:
- {
- src: "/images/IMG_2373.png",
- alt: "Scoring av matvarer",
- }
+image: { src: "/images/IMG_2373.png", alt: "Scoring av matvarer" }
 publishDate: "2025-04-10 06:00"
 category: "Funksjonalitet"
 author: "Matlat"
 tags: [Matlat]
-
 ---
 
 I en hverdag preget av høye priser, glorete tilbud og merkevarer som eies av de samme gigantene, er det lett å miste oversikten over hva vi egentlig kjøper. Handler du smart, eller blir du lurt av markedskreftene?
 
 I denne guiden får du en enkel innføring i tre kraftfulle verktøy for å gjennomskue matsystemet:
 
-- **NOVA** – viser hvor prosessert maten er  
-- **FAIR** – avslører hvem som faktisk står bak merkevaren  
+- **NOVA** – viser hvor prosessert maten er
+- **FAIR** – avslører hvem som faktisk står bak merkevaren
 - **GEOP** – sier noe om hvor etisk og bærekraftig landet bak produktet er
 
 Når du kjenner disse, kan du ta valg som både er bedre for helsa, lommeboka og verden rundt deg. La oss dykke inn!
@@ -56,11 +51,13 @@ Når du kjenner disse, kan du ta valg som både er bedre for helsa, lommeboka og
 
 - **4 – Verst:**  
   Produktet kommer fra en dagligvaregigant eller et multinasjonalt konsern som eier mange merkevarer (f.eks. Nestlé, Orkla, Unilever). Også EMV (egne merkevarer som Xtra, First Price) havner her.
+
 ---
 
 ## 🌍 GEOP: Hvor i verden kommer varen fra?
 
 **GEOP-score** vurderer det geopolitiske og etiske bakteppet til selskapet som produserer varen:
+
 - **1 – Best:**  
   Norge og naboland som Sverige, Danmark, Finland og Nederland – land med høy grad av bærekraft, etikk og samarbeid.
 
@@ -78,7 +75,7 @@ Når du kjenner disse, kan du ta valg som både er bedre for helsa, lommeboka og
 ## ✅ Oppsummering: Tre grep for bedre valg
 
 | Klassifisering | Beste valg | Dårligste valg |
-|----------------|------------|----------------|
+| -------------- | ---------- | -------------- |
 | **NOVA**       | Gruppe 1   | Gruppe 4       |
 | **FAIR**       | Score 1    | Score 4        |
 | **GEOP**       | Score 1    | Score 4        |
@@ -87,8 +84,8 @@ Ved å velge produkter som scorer lavt på alle tre skalaer, gjør du noe godt f
 
 ---
 
-*Vil du ha tips til produkter som scorer bra i norske butikker akkurat nå? Følg med på MatLått.no eller ta kontakt, så hjelper vi deg i gang med bedre*
+_Vil du ha tips til produkter som scorer bra i norske butikker akkurat nå? Følg med på MatLått.no eller ta kontakt, så hjelper vi deg i gang med bedre_
 
-Matlat gjør det enklere å ta billigere og bedre matvalg - last ned og prøv du og: https://matlat.no/download/
--
+## Matlat gjør det enklere å ta billigere og bedre matvalg - last ned og prøv du og: https://matlat.no/download/
+
 Matlat er en uavhengig tjeneste for pris- og matvaresammenligning, helt uten tilknytning til noen matvarekjeder.

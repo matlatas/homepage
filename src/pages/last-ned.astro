@@ -1,0 +1,57 @@
+---
+const url = Astro.url.href;
+---
+<html lang="en">
+  <head>
+    <title>Last ned Matpris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={url} />
+    <meta property="og:title" content="Last ned Matpris" />
+    <meta property="og:description" content="Last ned Matpris-appen for smartere matinnkjøp." />
+    <meta property="og:image" content="/opengraph.png" />
+    <meta property="og:site_name" content="Matpris" />
+
+    <script>
+      window.onload = function () {
+        const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/android/i.test(ua)) {
+          window.location.href =
+            "https://play.google.com/store/apps/details?id=com.kjellhaaland.matlat";
+        } else if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+          window.location.href =
+            "https://apps.apple.com/us/app/matlat/id6450923842";
+        } else {
+          window.location.href = "https://apps.apple.com/us/app/matlat/id6450923842";
+        }
+      };
+    </script>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 2rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <p>Please enable JavaScript to be redirected to the app store.</p>
+    </noscript>
+    <div id="fallback" style="display: none">
+      <h1>Registrer deg i Byda</h1>
+      <p>
+        Choose your platform:<br />
+        <a href="https://apps.apple.com/us/app/matlat/id6450923842"
+          >App Store</a
+        >
+        |
+        <a href="https://play.google.com/store/apps/details?id=com.kjellhaaland.matlat"
+          >Google Play</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
