@@ -15,12 +15,12 @@ const url = Astro.url.href;
 
     <script>
       window.onload = function () {
-        const ua = navigator.userAgent || navigator.vendor || window.opera;
+        const ua = navigator.userAgent || navigator.vendor || (window as any).opera;
 
         if (/android/i.test(ua)) {
           window.location.href =
             "https://play.google.com/store/apps/details?id=com.kjellhaaland.matlat";
-        } else if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+        } else if (/iPad|iPhone|iPod/.test(ua) && !(window as any).MSStream) {
           window.location.href =
             "https://apps.apple.com/us/app/matlat/id6450923842";
         } else {
