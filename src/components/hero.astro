@@ -2,7 +2,6 @@
 import { Picture } from "astro:assets";
 import heroImage from "assets/hero-1.png";
 import Link from "@components/ui/link.astro";
-import { Icon } from "astro-icon/components";
 ---
 
 <main
@@ -12,6 +11,7 @@ import { Icon } from "astro-icon/components";
       src={heroImage}
       alt="App Promo Screenshot"
       widths={[200, 400, 600]}
+      height={800}
       sizes="(max-width: 800px) 100vw, 620px"
       loading="eager"
       format="avif"
@@ -20,31 +20,19 @@ import { Icon } from "astro-icon/components";
   <div>
     <h1
       class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Gjør gode matvalg med Matlat-appen!
+      Mattilbud på en smartere måte
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Matlat er appen som hjelper deg å finne den sunneste maten, de beste tilbudene 
-      og som hjelper deg til å velge gode og sunne matvarer.
+      Matpris-appen hjelper deg å spare penger, unngå dårlige lokketilbud og velge gode og sunne matvarer. Vi vurderer alle mattilbudene hver uke, slik at du kan ta smartere valg når du handler 🎲
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
         href="#"
-        href="/download"
+        href="/last-ned"
         target="_blank"
         class="flex gap-1 items-center justify-center"
         rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxl-android" />
-         Last ned for Android
-      </Link>
-      <Link
-        size="lg"
-        style="outline"
-        rel="noopener"
-        href="https://apps.apple.com/us/app/matlat/id6450923842"
-        class="flex gap-1 items-center justify-center"
-        target="_blank">
-        <Icon class="text-black w-4 h-4" name="bx:bxl-apple" />
-         Last ned for iOS
+         Last ned appen
       </Link>
     </div>
   </div>
