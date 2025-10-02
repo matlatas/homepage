@@ -21,8 +21,8 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Matlat"
-  : "Matlat - Ta gode matvalg";
+  ? title + " | " + "Matpris"
+  : "Matpris - Vi setter pris på maten";
 ---
 
 <!DOCTYPE html>
@@ -50,22 +50,17 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Matlat er appen som hjelper deg å spise sunt og billig. Sjekk maten for e-stoffer og allergener eller om den er ultraprosessert."
+      description="Matpris er appen som hjelper deg å spise sunt og billig. Sjekk maten for e-stoffer og allergener eller om den er ultraprosessert."
       canonical={canonicalURL}
-      twitter={{
-        creator: "@matlat",
-        site: "@web3templates",
-        card: "summary_large_image",
-      }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Matlat - Ta gode matvalg`,
+          title: `Matpris - Vi setter pris på maten`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Matlat Homepage Screenshot",
+          alt: "Matpris Homepage Screenshot",
         },
       }}
     />
