@@ -2,7 +2,7 @@
   {
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
-      "namespace": "mat_app",
+      "namespace": "android_app",
       "package_name": "com.kjellhaaland.matlat",
       "sha256_cert_fingerprints": [
         "eb:27:2c:f4:4c:ad:18:0c:e9:10:1d:e0:cc:6d:72:74:78:36:56:54:47:b3:f2:cb:ee:02:22:9b:52:62:d0:37",
