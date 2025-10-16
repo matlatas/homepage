@@ -9,7 +9,7 @@ export const GET: APIRoute = async ({ params, request }) => {
 
   // Sort by date in descending order
   publishedBlogEntries.sort((a, b) => {
-    return b.data.publishDate - a.data.publishDate;
+    return (b.data as any).publishDate - (a.data as any).publishDate;
   });
 
   // Limit to 5 blog entries
