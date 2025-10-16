@@ -29,7 +29,7 @@ async function getHighlighter() {
 export default defineConfig({
   site: "https://matpris.ai",
   base: config.site.base_path ? config.site.base_path : "/",
-  trailingSlash: config.site.trailing_slash ? "always" : "never",
+  trailingSlash: config.site.trailing_slash ? "ignore" : "never",
   image: { service: sharp() },
   vite: { plugins: [tailwindcss()] },
   integrations: [
