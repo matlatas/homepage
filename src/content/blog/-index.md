@@ -2,6 +2,7 @@
 title: "Nyheter"
 meta_title: "Siste nytt fra oss"
 description: "Vi deler de siste nyhetene, innsiktene og oppdateringene fra vårt team og bransjen."
+date: "2025-08-01 08:00"
 image: ""
 
 hero:
