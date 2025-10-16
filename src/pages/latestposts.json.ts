@@ -25,10 +25,12 @@ export const GET: APIRoute = async ({ params, request }) => {
   const res = firstFiveBlogEntries.map((entry) => {
     return {
       id: entry.id,
-      title: entry.data.title,
-      snippet: entry.data.description,
       slug: entry.id,
-      image: { src: entry.data.image },
+      data: {
+        title: entry.data.title,
+        snippet: entry.data.description,
+        image: { src: entry.data.image },
+      },
     };
   });
 
