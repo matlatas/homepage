@@ -1,39 +1,22 @@
 ---
-import Contactform from "@components/contactform.astro";
-import Container from "@components/container.astro";
-import Sectionhead from "@components/sectionhead.astro";
-import Layout from "@layouts/Layout.astro";
-import { Icon } from "astro-icon/components";
+import Base from "@/layouts/Base.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+import ContactHero from "@/partials/ContactHero.astro";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const contact = (await getEntry(
+  "contact",
+  "-index"
+)) as CollectionEntry<"contact">;
+const { title, description, meta_title, image } = contact.data;
 ---
 
-<Layout title="Contact">
-  <Container>
-    <Sectionhead>
-      <Fragment slot="title">Kontakt</Fragment>
-      <Fragment slot="desc"></Fragment>
-    </Sectionhead>
-
-    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
-      <div>
-        <h2 class="font-medium text-2xl text-gray-800">Kontakt oss</h2>
-        <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Send inn spørsmål, tips, forbedringsforslag eller gi oss beskjed om det er noe du er misfornøyd med. Vi svarer så raskt vi kan.
-        </p>
-        <div class="mt-5">
-          <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
-            <span>Strandgata 13, 4790 Lillesand</span>
-          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:post@matlat.no"
-              >post@matlat.no</a
-            >
-          </div>
-        </div>
-      </div>
-      <div>
-        <Contactform />
-      </div>
-    </div>
-  </Container>
-</Layout>
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}>
+  <ContactHero />
+  <CallToAction />
+</Base>

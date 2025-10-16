@@ -1,8 +1,8 @@
 ---
 draft: false
 title: "Vi lanserer Prissjekk 🎉"
-snippet: "Vi lanserer Prissjekk - en revolusjonerende funksjon for å sjekke og sammenligne priser på matvarer"
-image: { src: "/images/prissjekk-thumbnail.jpg", alt: "Scoring av matvarer" }
+description: "Vi lanserer Prissjekk - en revolusjonerende funksjon for å sjekke og sammenligne priser på matvarer"
+image: "/images/prissjekk-thumbnail.jpg"
 publishDate: "2025-09-11 08:00"
 category: "Nyheter"
 author: "Matpris Teamet"

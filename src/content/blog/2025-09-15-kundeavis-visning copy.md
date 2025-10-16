@@ -1,8 +1,8 @@
 ---
 draft: false
 title: "Vi har oppdatert kundeavis-visningen 🎉"
-snippet: "Vi har oppdatert kundeavis-visningen - en forbedret opplevelse for å bla gjennom og finne tilbud i kundeaviser"
-image: { src: "/images/kundeavis-visning-thumbnail.jpg", alt: "Kundeavis" }
+description: "Vi har oppdatert kundeavis-visningen - en forbedret opplevelse for å bla gjennom og finne tilbud i kundeaviser"
+image: "/images/kundeavis-visning-thumbnail.jpg"
 publishDate: "2025-09-15 08:00"
 category: "Nyheter"
 author: "Matpris Teamet"

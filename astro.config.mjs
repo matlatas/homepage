@@ -1,11 +1,70 @@
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import icon from "astro-icon";
+
+import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import mdx from "@astrojs/mdx";
+import react from "@astrojs/react";
+import sitemap from "@astrojs/sitemap";
+import tailwindcss from "@tailwindcss/vite";
+import AutoImport from "astro-auto-import";
+import { defineConfig } from "astro/config";
+import remarkCollapse from "remark-collapse";
+import remarkToc from "remark-toc";
+import sharp from "sharp";
+import { remarkModifiedTime } from "./remark-modified-time.mjs";
+import config from "./src/config/config.json";
+
+let highlighter;
+
+async function getHighlighter() {
+  if (!highlighter) {
+    const { getHighlighter } = await import("shiki");
+    highlighter = await getHighlighter({ theme: "one-dark-pro" });
+  }
+  return highlighter;
+}
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://matpris.ai",
-  integrations: [tailwind(), mdx(), sitemap(), icon()],
+  base: config.site.base_path ? config.site.base_path : "/",
+  trailingSlash: config.site.trailing_slash ? "always" : "never",
+  image: { service: sharp() },
+  vite: { plugins: [tailwindcss()] },
+  integrations: [
+    react(),
+    sitemap(),
+    AutoImport({
+      imports: [
+        "@/shortcodes/Button",
+        "@/shortcodes/Accordion",
+        "@/shortcodes/Notice",
+        "@/shortcodes/Video",
+        "@/shortcodes/Youtube",
+        "@/shortcodes/Tabs",
+        "@/shortcodes/Tab",
+      ],
+    }),
+    mdx(),
+  ],
+  markdown: {
+    remarkPlugins: [
+      remarkModifiedTime,
+      rehypeHeadingIds,
+      [remarkToc, { heading: "contents" }],
+      [
+        remarkCollapse,
+        {
+          test: "Table of contents",
+        },
+      ],
+    ],
+    shikiConfig: {
+      theme: "one-dark-pro",
+      wrap: true,
+    },
+    extendDefaultPlugins: true,
+    highlighter: getHighlighter,
+  },
 });

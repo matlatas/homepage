@@ -1,17 +1,29 @@
 ---
-import Container from "@components/container.astro";
-import Cta from "@components/cta.astro";
-import Features from "@components/features.astro";
-import Hero from "@components/hero.astro";
-import Logos from "@components/logos.astro";
-import Layout from "@layouts/Layout.astro";
+import Base from "@/layouts/Base.astro";
+import Clients from "@/partials/Clients.astro";
+import Features from "@/partials/Features.astro";
+import HomeBanner from "@/partials/HomeBanner.astro";
+import Testimonial from "@/partials/Testimonial.astro";
+import BlogSection from "@/partials/BlogSection.astro";
+import Faq from "@/partials/Faq.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+import { getEntry } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+const home = (await getEntry(
+  "homepage",
+  "-index",
+)) as CollectionEntry<"homepage">;
+
+const { title, description, meta_title, image } = home.data;
 ---
 
-<Layout title="">
-  <Container>
-    <Hero />
-    <Features />
-    <Logos />
-    <Cta />
-  </Container>
-</Layout>
+<Base {...{ title, description, meta_title, image }}>
+  <HomeBanner />
+  <Clients />
+  <Features />
+  <Testimonial visibleTestimonial={3} />
+  <BlogSection visiblePosts={3} />
+  <Faq />
+  <CallToAction />
+</Base>

@@ -1,0 +1,141 @@
+---
+import ImageMod from "@/components/ImageMod.astro";
+import config from "@/config/config.json";
+import { markdownify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const { contact_form_action } = config.params;
+const { hero } = (
+  (await getEntry("contact", "-index")) as CollectionEntry<"contact">
+).data;
+---
+
+{
+  (
+    <section class="section">
+      <div class="container">
+        <div class="row justify-center">
+          <div
+            class="lg:col-8 xl:col-5 text-center pb-16 lg:pb-20"
+            data-aos="fade-up-sm">
+            {hero.title && (
+              <h2 class="md:h1 mb-6" set:html={markdownify(hero.title)} />
+            )}
+            {hero.description && (
+              <p
+                class="text-lg/[inherit]"
+                set:html={markdownify(hero.description)}
+              />
+            )}
+          </div>
+          <div class="col-10" data-aos="fade-up-sm" data-aos-delay="200">
+            <div class="row gy-5 justify-between">
+              <div class="lg:col-5 divide-y border-border space-y-4">
+                {hero.list?.map((item) => (
+                  <div class="flex gap-4 mb-4 pb-4 last:mb-0 last:pb-0 border-border">
+                    <div class="mt-1">
+                      <div class="w-6 h-6">
+                        <ImageMod
+                          class="w-full h-full object-cover"
+                          src={item.icon}
+                          alt="icon"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <h3 class="h6 mb-3" set:html={markdownify(item.title)} />
+                      <div
+                        class="content"
+                        set:html={markdownify(item.description, true)}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div class="relative lg:col-6">
+                <div>
+                  <form
+                    class="row g-4"
+                    action={contact_form_action}
+                    method="post">
+                    <div class="lg:col-6">
+                      <label for="name" class="form-label">
+                        Fornavn <span class="text-red-500">*</span>
+                      </label>
+                      <input
+                        id="name"
+                        name="name"
+                        class="form-input"
+                        placeholder="Ola"
+                        required
+                        type="text"
+                      />
+                    </div>
+                    <div class="lg:col-6">
+                      <label for="name" class="form-label">
+                        Etternavn <span class="text-red-500">*</span>
+                      </label>
+                      <input
+                        id="name"
+                        name="name"
+                        class="form-input"
+                        placeholder="Nordmann"
+                        required
+                        type="text"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="email" class="form-label">
+                        Email <span class="text-red-500">*</span>
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="deg@matpris.ai"
+                        required
+                        type="email"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="comapny-name" class="form-label">
+                        Telefonnummer <span class="text-red-500">*</span>
+                      </label>
+                      <input
+                        id="comapny-name"
+                        name="comapny-name"
+                        class="form-input"
+                        placeholder="+47 123 45 678"
+                        required
+                        type="text"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="message" class="form-label">
+                        Hva tenker du på?<span class="text-red-500">*</span>
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        class="form-input"
+                        placeholder="Skriv meldingen din her"
+                        required
+                        rows="2"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary w-full">
+                        Send melding
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

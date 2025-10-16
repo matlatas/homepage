@@ -1,15 +1,24 @@
 ---
-import Container from "@components/container.astro";
-import Layout from "@layouts/Layout.astro";
+import ImageMod from "@/components/ImageMod.astro";
+import Base from "@/layouts/Base.astro";
 ---
 
-<Layout title="404 Not Found">
-  <Container>
-    <div class="min-h-[calc(100vh-16rem)] flex items-center justify-center">
-      <div class="mt-16 text-center">
-        <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">404</h1>
-        <p class="text-lg mt-4 text-slate-600">Page not found.</p>
+<Base title="Page Not Found" notFoundPage={true}>
+  <section class="section text-center">
+    <div class="container" data-aos="fade-up-sm">
+      <div class="row justify-center">
+        <div class="sm:col-10 md:col-8 lg:col-7 text-center">
+          <ImageMod
+            class="mx-auto mb-10 block w-[600px]"
+            src="/images/404.png"
+            alt="404 image"
+          />
+          <p class="text-xl/inherit">
+            Opps! The page that you are looking for is not found
+          </p>
+          <a href="/" class="btn btn-primary mt-8">Back to home</a>
+        </div>
       </div>
     </div>
-  </Container>
-</Layout>
+  </section>
+</Base>

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "Matpris",
+    "base_url": "https://matpris.ai",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.svg",
+    "logo": "/images/logo.svg",
+    "logo_light": "/images/logo-light.svg",
+    "logo_width": "118",
+    "logo_height": "",
+    "logo_text": "Matpris"
+  },
+
+  "settings": {
+    "pagination": 3,
+    "summary_length": 120,
+    "blog_folder": "blog"
+  },
+
+  "params": {
+    "announcement": {
+      "enable": false,
+      "persist_announcement_closed": false,
+      "content": "Get 17+ Astro themes in a single bundle! [Explore Now](https://themefisher.com/bundles/astro-bundle)"
+    },
+    "demo_contact_form_action": "#",
+    "contact_form_action": "https://formspree.io/f/mwprazoz",
+    "footer_description": "Ingen cookies her - bare Plausible.io for statistikk. Psst! Sjekk Matpris-appen dersom du har lyst på billige cookies 🍪.",
+    "copyright": "Copyright {year} By Laminar AS. All rights reserved."
+  },
+
+  "subscription": {
+    "enable": false,
+    "form_action": "#"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Last ned appen",
+    "link": "/last-ned"
+  },
+
+  "metadata": {
+    "meta_author": "Matpris",
+    "meta_image": "/images/og-image.jpg",
+    "meta_description": "Last ned Matpris-appen for smartere matinnkjøp."
+  }
+}

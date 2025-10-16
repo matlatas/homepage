@@ -1,8 +1,8 @@
 ---
 draft: false
 title: "Matlat blir til Matpris"
-snippet: "Fra Matlat til Matpris – Din nye smarteste handlepartner"
-image: { src: "/images/logo.png", alt: "Scoring av matvarer" }
+description: "Fra Matlat til Matpris – Din nye smarteste handlepartner"
+image: "/images/logo.png"
 publishDate: "2025-08-25 08:00"
 category: "Nyheter"
 author: "Matpris Teamet"

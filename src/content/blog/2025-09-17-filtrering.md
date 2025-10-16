@@ -1,8 +1,8 @@
 ---
 draft: false
 title: "Filtrering er her 🎉"
-snippet: "Vi har lansert filtrering i Matpris-appen - en ny funksjon som gjør det enklere å finne de beste tilbudene som passer dine behov"
-image: { src: "/images/filtrering-thumbnail.jpg", alt: "Filtrering" }
+description: "Vi har lansert filtrering i Matpris-appen - en ny funksjon som gjør det enklere å finne de beste tilbudene som passer dine behov"
+image: "/images/filtrering-thumbnail.jpg"
 publishDate: "2025-09-17 08:00"
 category: "Nyheter"
 author: "Matpris Teamet"

@@ -1,0 +1,41 @@
+{
+  "main": [
+    {
+      "name": "Om oss",
+      "url": "/company"
+    },
+    {
+      "name": "Nyheter",
+      "url": "/blog"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/contact"
+    }
+  ],
+  "footer_quick_links": [
+    {
+      "name": "Om oss",
+      "url": "/company"
+    },
+
+    {
+      "name": "Kontakt",
+      "url": "/contact"
+    }
+  ],
+  "footer_other_links": [
+    {
+      "name": "Nyheter",
+      "url": "/blog"
+    },
+    {
+      "name": "Personvern",
+      "url": "/personvernerklæring"
+    },
+    {
+      "name": "Vilkår",
+      "url": "/terms"
+    }
+  ]
+}

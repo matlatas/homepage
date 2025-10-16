@@ -1,7 +1,8 @@
 ---
 title: Bruksvilkår
-author: Team Matpris
-description: Les gjennom Bruksvilkårene
+meta_title: "Bruksvilkår - Matpris"
+description: "Les gjennom Bruksvilkårene våre for å forstå hvordan vi håndterer dine data."
+draft: false
 ---
 
 _Sist oppdatert: 10-09-2025_

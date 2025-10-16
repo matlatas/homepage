@@ -1,0 +1,20 @@
+{
+  "main": [
+    {
+      "name": "Facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/profile.php?id=61550551371855"
+    },
+    {
+      "name": "TikTok",
+      "icon": "FaTiktok",
+      "link": "https://www.tiktok.com/@matpris"
+    },
+
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/company/matpris/"
+    }
+  ]
+}

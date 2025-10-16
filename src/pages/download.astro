@@ -1,6 +1,7 @@
 ---
 const url = Astro.url.href;
 ---
+
 <html lang="en">
   <head>
     <title>Last ned Matpris</title>
@@ -9,13 +10,17 @@ const url = Astro.url.href;
     <meta property="og:type" content="website" />
     <meta property="og:url" content={url} />
     <meta property="og:title" content="Last ned Matpris" />
-    <meta property="og:description" content="Last ned Matpris-appen for smartere matinnkjøp." />
-    <meta property="og:image" content="/opengraph.png" />
+    <meta
+      property="og:description"
+      content="Last ned Matpris-appen for smartere matinnkjøp."
+    />
+    <meta property="og:image" content="/opengraph.jpg" />
     <meta property="og:site_name" content="Matpris" />
 
     <script>
       window.onload = function () {
-        const ua = navigator.userAgent || navigator.vendor || (window as any).opera;
+        const ua =
+          navigator.userAgent || navigator.vendor || (window as any).opera;
 
         if (/android/i.test(ua)) {
           window.location.href =
@@ -24,7 +29,8 @@ const url = Astro.url.href;
           window.location.href =
             "https://apps.apple.com/us/app/matlat/id6450923842";
         } else {
-          window.location.href = "https://apps.apple.com/us/app/matlat/id6450923842";
+          window.location.href =
+            "https://apps.apple.com/us/app/matlat/id6450923842";
         }
       };
     </script>
@@ -44,13 +50,14 @@ const url = Astro.url.href;
       <h1>Last ned Matpris</h1>
       <p>
         Choose your platform:<br />
-        <a href="https://apps.apple.com/us/app/matlat/id6450923842"
-          >App Store</a
-        >
+        <a href="https://apps.apple.com/us/app/matlat/id6450923842">
+          App Store
+        </a>
         |
-        <a href="https://play.google.com/store/apps/details?id=com.kjellhaaland.matlat"
-          >Google Play</a
-        >
+        <a
+          href="https://play.google.com/store/apps/details?id=com.kjellhaaland.matlat">
+          Google Play
+        </a>
       </p>
     </div>
   </body>
