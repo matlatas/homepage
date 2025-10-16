@@ -3,7 +3,7 @@
     "title": "Matpris",
     "base_url": "https://matpris.ai",
     "base_path": "/",
-    "trailing_slash": false,
+    "trailing_slash": true,
     "favicon": "/images/favicon.svg",
     "logo": "/images/logo.svg",
     "logo_light": "/images/logo-light.svg",
