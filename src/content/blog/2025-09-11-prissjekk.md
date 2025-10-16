@@ -3,10 +3,7 @@ draft: false
 title: "Vi lanserer Prissjekk 🎉"
 description: "Vi lanserer Prissjekk - en revolusjonerende funksjon for å sjekke og sammenligne priser på matvarer"
 image: "/images/prissjekk-thumbnail.jpg"
-publishDate: "2025-09-11 08:00"
-category: "Nyheter"
-author: "Matpris Teamet"
-tags: [Matpris, Prissjekk, Nyheter]
+date: "2025-09-11 08:00"
 ---
 
 _Er du lei av å lure på om du betaler for mye for melka? Slipp bekymringene og la teknologien gjøre jobben._

@@ -3,10 +3,7 @@ draft: false
 title: "Filtrering er her 🎉"
 description: "Vi har lansert filtrering i Matpris-appen - en ny funksjon som gjør det enklere å finne de beste tilbudene som passer dine behov"
 image: "/images/filtrering-thumbnail.jpg"
-publishDate: "2025-09-17 08:00"
-category: "Nyheter"
-author: "Matpris Teamet"
-tags: [Matpris, Prissjekk, Nyheter]
+date: "2025-09-17 08:00"
 ---
 
 _Syntes du det er vanskelig å ha oversikt over hvilke tilbud som er gode eller dårlige i kundeavisene?_

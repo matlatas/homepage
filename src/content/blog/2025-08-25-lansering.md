@@ -1,12 +1,10 @@
 ---
 draft: false
 title: "Matlat blir til Matpris"
+meta_title: "Fra Matlat til Matpris – Din nye smarteste handlepartner"
 description: "Fra Matlat til Matpris – Din nye smarteste handlepartner"
 image: "/images/logo.png"
-publishDate: "2025-08-25 08:00"
-category: "Nyheter"
-author: "Matpris Teamet"
-tags: [Matpris, Nyheter]
+date: "2025-08-25 08:00"
 ---
 
 Vi har spennende nyheter å dele! Appen du kjenner og elsker har fått et helt nytt navn og identitet. Matlat er nå blitt til Matpris – og vi er mer klare enn noen gang til å hjelpe deg handle smartere.

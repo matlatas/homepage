@@ -3,10 +3,7 @@ draft: false
 title: "Vi har oppdatert kundeavis-visningen 🎉"
 description: "Vi har oppdatert kundeavis-visningen - en forbedret opplevelse for å bla gjennom og finne tilbud i kundeaviser"
 image: "/images/kundeavis-visning-thumbnail.jpg"
-publishDate: "2025-09-15 08:00"
-category: "Nyheter"
-author: "Matpris Teamet"
-tags: [Matpris, Prissjekk, Nyheter]
+date: "2025-09-15 08:00"
 ---
 
 _Syntes du det er vanskelig å ha oversikt over hvilke tilbud som er gode eller dårlige i kundeavisene?_

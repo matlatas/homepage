@@ -3,10 +3,7 @@ draft: false
 title: "Vi lanserer Handlelisten 🎉"
 description: "Vi har lansert Handlelisten i Matpris-appen - En handleliste som automagisk foreslår tilbud"
 image: "/images/logo.png"
-publishDate: "2025-10-16 08:00"
-category: "Nyheter"
-author: "Matpris Teamet"
-tags: [Matpris, Handleliste, Nyheter]
+date: "2025-10-16 08:00"
 ---
 
 _Skriver du handleliste for hånd eller i en notat-app?_

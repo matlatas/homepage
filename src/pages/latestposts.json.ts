@@ -8,12 +8,26 @@ export const GET: APIRoute = async ({ params, request }) => {
   });
 
   // Sort by date in descending order
-  publishedBlogEntries.sort((a, b) => {
-    return (b.data as any).publishDate - (a.data as any).publishDate;
+  publishedBlogEntries.sort((a: any, b: any) => {
+    console.log({ a: a.data, b: b.data });
+
+    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
   });
 
   // Limit to 5 blog entries
   const firstFiveBlogEntries = publishedBlogEntries.slice(0, 5);
 
-  return new Response(JSON.stringify(firstFiveBlogEntries));
+  // Add the fields snippet=description, slug=id and image[src] = image
+
+  const res = firstFiveBlogEntries.map((entry) => {
+    return {
+      id: entry.id,
+      title: entry.data.title,
+      snippet: entry.data.description,
+      slug: entry.id,
+      image: { src: entry.data.image },
+    };
+  });
+
+  return new Response(JSON.stringify(res));
 };
