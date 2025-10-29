@@ -19,7 +19,7 @@ list:
     content: |
       “Fantastisk app, utrolig informativ og gratis i motsetning til FriFor. Utrolig bra budskap, håper enda flere tar denne i bruk og luker ut ikke-mat fra sitt kosthold, ultraprossesert mat har aldri vært lettere å styre unna! #ikkespons”
 
-  - name: "Helene"
+  - name: "Eva og Emma"
     designation: "Student og Matpris-bruker i App Store"
     content: |
       “Matpris-appen er sykt bra! Vi bruker delt handlelisten for å gjøre innkjøp i kollektivet. Vi får også full oversikt over de beste tilbudene i butikkene rundt oss, så vi sparer både tid og penger. Enkel, oversiktlig og utrolig nyttig i en trang studentøkonomi. Anbefales på det sterkeste! Terningkast 6.”
