@@ -30,8 +30,21 @@ export default defineConfig({
   site: "https://matpris.ai",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "ignore" : "never",
+  outDir: "./dist",
+  output: "static",
+
   image: { service: sharp() },
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    server: {
+      proxy: {
+        "/api": {
+          target: "http://localhost:8000",
+          changeOrigin: true,
+        },
+      },
+    },
+  },
   integrations: [
     react(),
     sitemap(),
@@ -48,6 +61,7 @@ export default defineConfig({
     }),
     mdx(),
   ],
+
   markdown: {
     remarkPlugins: [
       remarkModifiedTime,

@@ -1,0 +1,88 @@
+---
+import "../../styles/global.css";
+
+// src/pages/widget/[widgetId].astro
+const { widgetId } = Astro.params;
+
+// Fetch your data based on widgetId
+const data = {
+  items: [
+    { name: "Item 1", price: 29.99 },
+    { name: "Item 2", price: 49.99 },
+    { name: "Item 3", price: 19.99 },
+  ],
+};
+
+import Widget from "@/layouts/components/custom/Widget";
+---
+
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astro Widget</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #fff;
+      }
+
+      .widget-container {
+        padding: 20px;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+      .widget-header {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .item-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .item {
+        padding: 12px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: box-shadow 0.2s;
+      }
+
+      .item:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .item-name {
+        font-weight: 500;
+        color: #333;
+      }
+
+      .item-price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2ecc71;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="widget-container">
+      <Widget client:load />
+    </div>
+  </body>
+</html>
