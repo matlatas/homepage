@@ -11,6 +11,11 @@ export const GET: APIRoute = () => {
               "/": "/s/*",
               comment: "Matches any URL whose path starts with /s/",
             },
+            {
+              "/": "/finish-sign-in/*",
+              comment:
+                "Matches any URL whose path starts with /finish-sign-in/",
+            },
           ],
         },
       ],
