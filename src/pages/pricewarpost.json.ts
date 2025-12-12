@@ -13,7 +13,7 @@ export const GET: APIRoute = async ({ params, request }) => {
   const res = {
     id: entry.id,
     slug: entry.id,
-    isActive: true,
+    isActive: false,
     data: {
       title: entry.data.title,
       snippet: entry.data.description,
@@ -21,5 +21,7 @@ export const GET: APIRoute = async ({ params, request }) => {
     },
   };
 
-  return new Response(JSON.stringify(res));
+  return null;
+
+  //return new Response(JSON.stringify(res));
 };
