@@ -21,7 +21,5 @@ export const GET: APIRoute = async ({ params, request }) => {
     },
   };
 
-  return null;
-
-  //return new Response(JSON.stringify(res));
+  return new Response(JSON.stringify(res));
 };

@@ -18,7 +18,7 @@ export const GET: APIRoute = async ({ params, request }) => {
   );
 
   // Limit to 5 blog entries
-  const firstFiveBlogEntries = filteredBlogEntries.slice(0, 5);
+  const firstFiveBlogEntries = filteredBlogEntries.slice(0, 8);
 
   // Add the fields snippet=description, slug=id and image[src] = image
 
