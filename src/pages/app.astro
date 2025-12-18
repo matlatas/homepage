@@ -1,0 +1,184 @@
+---
+const APP_NAME = "Matpris";
+const TAGLINE = "Prisbevisst dagligvarehandel, tilbudsavis og handleliste 🎉";
+
+const IOS_URL = "https://apps.apple.com/no/app/matpris/id6450923842";
+const ANDROID_URL =
+  "https://play.google.com/store/apps/details?id=com.kjellhaaland.matlat";
+const WEBSITE_URL = "https://matpris.ai";
+---
+
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Last ned {APP_NAME}</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={"Last ned " + APP_NAME} />
+    <meta property="og:description" content={TAGLINE} />
+    <meta property="og:image" content="/opengraph.jpg" />
+    <meta property="og:site_name" content={APP_NAME} />
+
+    <link rel="icon" href="/favicon.svg" />
+
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #111111;
+        --muted: #666666;
+        --primary: #2a9b64;
+        --primary-hover: #238456;
+        --border: #e5e5e5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 440px;
+        padding: 32px;
+        text-align: center;
+      }
+
+      .logo {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto 14px;
+        border-radius: 16px;
+        overflow: hidden;
+      }
+      .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .source {
+        display: inline-block;
+        font-size: 12px;
+        color: var(--muted);
+        border: 1px solid var(--border);
+        padding: 6px 10px;
+        border-radius: 999px;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 0 0 8px;
+      }
+
+      p {
+        margin: 0 0 22px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+
+      .buttons {
+        display: grid;
+        gap: 12px;
+      }
+
+      a.button {
+        display: block;
+        padding: 14px 16px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        border: 1px solid var(--border);
+        color: var(--text);
+        transition:
+          background 0.15s ease,
+          border-color 0.15s ease;
+      }
+
+      a.button.primary {
+        background: var(--primary);
+        color: #fff;
+        border-color: var(--primary);
+      }
+
+      a.button.primary:hover {
+        background: var(--primary-hover);
+        border-color: var(--primary-hover);
+      }
+
+      .secondary-link {
+        margin-top: 18px;
+        font-size: 14px;
+      }
+
+      .secondary-link a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .secondary-link a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        margin-top: 22px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="card">
+      <div class="logo">
+        <img src="/favicon.svg" alt="Matpris ikon" />
+      </div>
+
+      <div id="source" class="source" style="display:none"></div>
+
+      <h1>{APP_NAME}</h1>
+      <p>{TAGLINE}</p>
+
+      <div class="buttons">
+        <a class="button primary" href={IOS_URL} rel="noopener noreferrer">
+          Last ned på App Store
+        </a>
+        <a class="button" href={ANDROID_URL} rel="noopener noreferrer">
+          Få den på Google Play
+        </a>
+      </div>
+
+      <div class="secondary-link">
+        <a href={WEBSITE_URL} rel="noopener noreferrer">
+          Lær mer / gå til nettsiden vår →
+        </a>
+      </div>
+
+      <div class="footer">
+        Hvis lenken åpnes inne i en app (TikTok/Instagram), kan du måtte trykke
+        én gang ekstra.
+      </div>
+    </main>
+  </body>
+</html>
